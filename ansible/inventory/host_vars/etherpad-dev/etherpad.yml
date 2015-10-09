@@ -1,0 +1,3 @@
+etherpad_title: 'Software Carpentry Etherpad'
+etherpad_disable_ip_logging: True
+etherpad_admins: [ 'etherpad-admin' ]

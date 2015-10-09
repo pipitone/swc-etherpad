@@ -1,0 +1,16 @@
+# Set custom timezone on the server
+ntp_timezone: 'America/Toronto'
+#
+# # Protect the SSH service by specifying list of hosts/networks which can
+# # access it (by default access is allowed from anywhere, but firewall blocks
+# # too many connection attempts in a short amout of time)
+# sshd_host_allow: [ '192.168.178.0/24' ]
+#
+# # Specify a mail server to send all mail through (it needs to accept the
+# # incoming messages from your host)
+# postfix_relayhost: 'mail.intern.example.com'
+#
+# # Set a default admin e-mail address where all messages to root account will
+# # be forwarded
+postfix_default_local_alias_recipients: [ 'jon@pipitone.ca' ]
+#
